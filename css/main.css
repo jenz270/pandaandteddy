@@ -1,0 +1,221 @@
+/*************************
+GENERAL
+*************************/
+*{
+	background: black;
+	color:white;
+}
+/* need better formating for the black background 
+    currently twitter and facebook picture is not visible */
+p{
+	text-align: center;
+}
+
+body{
+	font-family: 'Oswald', sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	color:pink;
+	background: url("paw.png");
+}
+
+
+img{
+	max-width: 100%;
+}
+
+
+/*************************
+HEADER
+*************************/
+
+.main-header{
+	height: 90px;
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
+/***********************
+NAVIGATION
+***********************/
+nav{
+	text-align: center;
+	padding: 10px 0;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+	position: relative;
+}
+
+nav li{
+	display: inline-block;
+}
+
+nav a{
+	color: white;
+	text-decoration: none;
+	font-weight:300;
+	font-size: 25px;
+	padding: 15px 10px;
+}
+
+
+/***********************
+NAVIGATION: Sub-Menu
+***********************/
+
+nav ul ul{
+	display: none;
+}
+
+nav ul li:hover > ul{
+	display: block;
+}
+
+nav ul:after{
+ content:" ";
+ clear: both;
+ display:block;
+}
+
+nav ul li:hover a{
+	color:pink;
+}
+
+/**********************
+LOGO
+**********************/
+#container{
+	background-color: white;
+	width: 100%;
+}
+
+#container img{
+	width: 200px;
+	height: 200px;
+	margin: 0px 550px 20px 550px;
+}
+
+/**********************
+FOOTER
+**********************/
+
+#wrapper h3,h5{
+	text-align: center;
+    text-decoration: underline;
+}
+
+#wrapper p{
+	font-weight: lighter;
+}
+
+/***********************
+PAGE: MAIN
+***********************/
+.homemenu{ 
+    text-align: center;
+}
+
+.homemenu ul{
+	list-style: none;
+}
+
+.homemenu li{
+	padding-bottom: 22px;
+}
+
+#mainintro{
+	font-size: 50px;
+}
+
+.homemenu img[src$=".jpg"]{
+	width:218px;
+	height: 300px
+}
+
+
+/***********************
+PAGE: ABOUT
+***********************/
+
+.story{
+	text-align: left;
+}
+
+.story h3{
+	padding: 10px;
+}
+
+.story p{
+	text-align: left;
+	padding: 0 40px 40px;
+}
+
+
+
+
+/***********************
+PAGE: MENU
+***********************/
+
+.menu{
+	padding-top: 30px;
+	width: 600px;
+	margin: 0 auto;
+	display: block;
+}
+
+
+
+
+/***********************
+PAGE: GALLERY
+***********************/
+
+
+
+
+
+
+
+/***********************
+PAGE: CONTACT
+***********************/
+form {
+border: 5px groove #000000;
+padding: 5px;
+width: 300px;
+height: 450px;
+margin: 0 auto;
+}
+
+textarea{
+	width: 300px;
+	height: 300px;
+}
+
+.puppy{
+margin: 0 auto;
+display: block;
+width:300px;
+height: 200px;
+padding: 30px;
+}
+
+
+
+
+
+
+
+
